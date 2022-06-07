@@ -1,0 +1,33 @@
+package sintaxeBasica;
+
+public class While {
+	public static void main(String[] args) {
+		
+		int contador = 0;
+		
+		while(contador <= 10) {
+			System.out.println(contador);
+			
+			/* contador += 1; 
+			 * contador = contador + 1; */
+			
+			contador++; //ou ++contador;
+			
+		int contador2 = 0;
+		
+		int total = 0;
+		
+		while(contador2 <= 10) {		
+			total = total + contador2;
+			
+			contador2++;
+			
+			System.out.println(total);
+		}
+		
+		System.out.println("o programa terminou");
+			
+			
+		}
+	}
+}
