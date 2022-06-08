@@ -55,7 +55,8 @@ public class Conta {
 			return true; 
 			
 		}
-		return false;
+		return false; // Ao invés de usar else podemos utilizar diretamente o return false pois é uma palavra chave que finaliza o metodo, ou seja
+		              // se ele tiver chegou ao final do if ja tera terminado, caso o contrario ele termina diretamente pelo return false.
 		
 		
 	}
