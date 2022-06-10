@@ -6,7 +6,7 @@ public class TestaBoni {
 		
 		Gerente gerente = new Gerente();
 		EditorVideo editor = new EditorVideo();
-		Funcionario funcionario = new Funcionario();
+		Funcionario funcionario = new Gerente();
 		
 		gerente.setSalario(5000);
 		editor.setSalario(2500);
