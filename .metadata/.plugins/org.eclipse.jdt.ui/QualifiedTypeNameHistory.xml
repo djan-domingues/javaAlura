@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="byteBankHerdado.EditorVideo"/>
+    <fullyQualifiedTypeName name="byteBankHerdado.Funcionario"/>
+    <fullyQualifiedTypeName name="byteBankPolimorfismoConta.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="byteBankHerdado.Gerente"/>
+    <fullyQualifiedTypeName name="byteBankHerdado.SistemaInterno"/>
+    <fullyQualifiedTypeName name="byteBankPolimorfismoConta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="byteBankPolimorfismoConta.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="byteBankPolimorfismoConta.CalculadorDeImposto"/>
 </qualifiedTypeNameHistroy>
