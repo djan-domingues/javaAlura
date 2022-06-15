@@ -6,7 +6,7 @@ public class Fluxo {
 		System.out.println("Ini do main");
 		try {
 			metodo1();
-		}catch (ArithmeticException | NullPointerException ex) {
+		}catch (ArithmeticException | NullPointerException | MinhaException ex) /*para fazer um catch polimorfico podemos apenas colocar catch(Exception ex) pois todas as exceções herdam dele*/{
 			
 			String msg = ex.getMessage();
 		    System.out.println("Exception " + msg);
@@ -33,9 +33,11 @@ public class Fluxo {
 		
 		System.out.println("Ini do metodo2");
 		
-		ArithmeticException exception = new ArithmeticException();
+		//ArithmeticException exception = new ArithmeticException();
 		
-		throw exception;
+		//throw exception;
+		
+		throw new MinhaException("Deu muito errado");
 		
 		/*
 		 * como a exceção foi inicializada antes dessa linha e nao foi tratado ele nunca chegara nessa linha, o que causa um erro de compilação, por isso a linha foi comentada
