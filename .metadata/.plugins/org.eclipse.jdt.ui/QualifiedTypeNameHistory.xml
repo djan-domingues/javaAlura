@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="byteBankPolimorfismoConta.ContaCorrente"/>
     <fullyQualifiedTypeName name="byteBankPolimorfismoConta.SeguroDeVida"/>
     <fullyQualifiedTypeName name="byteBankPolimorfismoConta.CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="javaPilha.MinhaException"/>
 </qualifiedTypeNameHistroy>
