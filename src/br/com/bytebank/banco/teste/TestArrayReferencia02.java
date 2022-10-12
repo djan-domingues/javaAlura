@@ -18,7 +18,7 @@ public class TestArrayReferencia02 {
 		
 		System.out.println(contas[1].getNumero());
 		
-		ContaPoupanca ref = (ContaPoupanca) contas[1];
+		ContaPoupanca ref = (ContaPoupanca) contas[1];//type cast
 		System.out.println(cc2.getNumero());
 		System.out.println(ref.getNumero());
  	}
