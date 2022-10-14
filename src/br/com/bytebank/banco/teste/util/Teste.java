@@ -1,49 +1,38 @@
 package br.com.bytebank.banco.teste.util;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 public class Teste {
 
         public static void main(String[] args) {
+        	
+        	
 
-                ArrayList lista = new ArrayList();
+                Conta cc1 = new ContaCorrente(22, 33);
+                cc1.deposita(333.0);
 
-                Conta cc = new ContaCorrente(22, 11);
-                lista.add(cc);
+                Conta cc2 = new ContaPoupanca(22, 44);
+                cc2.deposita(444.0);
 
-                Conta cc2 = new ContaCorrente(22, 22);
+                Conta cc3 = new ContaCorrente(22, 11);
+                cc3.deposita(111.0);
+
+                Conta cc4 = new ContaPoupanca(22, 22);
+                cc4.deposita(222.0);
+
+                List<Conta> lista = new ArrayList<>();
+                lista.add(cc1);
                 lista.add(cc2);
-
-                System.out.println(lista.size());
-                
-                
-                
-                Conta ref = (Conta) lista.get(0);
-                System.out.println(ref.getNumero());
-
-                lista.remove(0);
-
-                System.out.println("Tamanho: " + lista.size());
-
-                Conta cc3 = new ContaCorrente(33, 311);
                 lista.add(cc3);
-
-                Conta cc4 = new ContaCorrente(33, 322);
                 lista.add(cc4);
 
-                for(int i = 0; i < lista.size(); i++) {
-                    Object oRef = lista.get(i);
-                    System.out.println(oRef);
-                }
-
-                System.out.println("-------");
-
-                for(Object o : lista) {
-                    System.out.println(o);
-                }
-
         }
+
 }
+
