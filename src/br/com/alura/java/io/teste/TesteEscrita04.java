@@ -21,6 +21,7 @@ public class TesteEscrita04 {
 		BufferedWriter bw = new BufferedWriter(osw);
 		*/
 		
+		
 		PrintWriter pw = new PrintWriter("loremJava06.txt");
 		
 		
